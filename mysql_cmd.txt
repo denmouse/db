@@ -1,0 +1,4 @@
+compare time
+select * from tbTest where now()>time;
+select * from tbTest where TIME_TO_SEC('2017-09-21 10:24:11')>TIME_TO_SEC(time);
+
